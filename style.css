@@ -1,0 +1,458 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/*
+font-family: 'Cabin', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+
+
+
+
+
+
+
+
+/*Pražia*/
+
+
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 123, 0.5);
+    padding: 8px;
+    padding-bottom: 15px;
+    position: fixed;
+    z-index: 3;
+}
+ul{
+    width: 700px;
+    height: 100px;
+    position: relative;
+    margin-left: 950px;
+    margin-bottom: 5px;
+   padding-bottom: 10px;
+    text-align: center;
+    
+}
+li{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+    padding-top: 30px;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+li:hover{
+    background-color: dimgray;
+}
+li a{
+   width: 200px;
+    height: 60px; 
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+.logo{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    transition: 0.3s;
+}
+.logo:hover{
+    transform: scale(0.7);
+    transition: 0.3s;
+}
+ nav h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 30px;
+    padding-left: 150px;
+    position: absolute;
+}
+.linija{
+        color: #fff;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/*Header*/
+
+
+
+
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url("foto/architecture-2141019.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+ header h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    padding-top:200px;
+    color: #fff;
+}
+ header p{
+  text-align: center;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 50px;
+    color: #fff;  
+}
+.mygtukas{
+     width: 300px;
+     height: 100px;
+    text-align: center;
+    font-size: 40px;
+     padding-top: 50px;
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+     margin: 40px auto;
+     display: block;
+     background-color: darkgoldenrod;
+     border-radius: 40px;
+     border: 2px solid black;
+    transition: 0.3s;
+     
+}
+.mygtukas:hover{
+    background-color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    width: 90%;
+    height: 100vh;
+    margin: 50px auto;
+    padding: 60px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+h3{
+    font-size: 45px;
+    margin: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+.line1{
+    width: 96%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.Apie p{
+    color: black;
+    text-align: left;
+    margin: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    
+}
+
+.Apie img{
+    width: 250px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 250px;
+    box-shadow: 0px 0px 5px black;
+    padding: 5px;
+    transition: 1s;
+}
+.Apie img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.Prog{
+    transform: rotate(20deg);
+    
+    
+}
+.krep{
+    transform: rotate(-20deg);
+    
+}
+.stream{
+    transform: rotate(-20deg);
+    
+}
+.misk{
+    transform: rotate(20deg);
+    
+}
+
+
+
+
+
+
+
+
+
+.Galerija{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.card{
+    
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    position: relative;
+    margin: 75px auto
+}
+.face{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out; 
+    transform: perspective(500px) rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ 
+}
+.front{
+    background-color: dodgerblue;
+}
+.card:hover .front{
+    transform: perspective(500px)rotateY(180deg);
+}
+.card span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back{
+    transform: perspective(500px) rotateY(180deg);
+    background-color: cyan;
+}
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+.face h2{
+    transform: perspective(500px) translateZ(50px);
+    font-size: 45px;
+    font-family: Arial;
+}
+
+
+
+
+
+
+.pavasaris{
+    background-image: url("Nuotraukos%2520programavimui/Pavasaris.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line2{
+     width: 97%;
+    height: 2px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.Kontaktai{
+    text-align: center;
+}
+iframe{
+    box-shadow:0px 0px 5px grey;
+    padding: 3px;
+    margin: 10px;
+    display: block;
+}
+.foto1{
+    background-image: url("foto2/LietuvosMiskai.png");
+}
+.foto2{
+    background-image: url("foto2/Valentino%20Diena.PNG");
+}
+.foto3{
+    background-image: url("foto2/Gele.PNG");
+}
+.foto4{
+    background-image: url("foto2/Elementai.PNG");
+}
+
+
+
+
+
+.foto5{
+    background-image: url("foto2/Architects.PNG");
+}
+.foto6{
+    background-image: url("foto2/Dakar%20Rally.PNG");
+}
+.foto7{
+    background-image: url("foto2/Bureliai.PNG");
+}
+.foto8{
+    background-image: url("foto2/Auto.PNG");
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   {
+    background-color: lightblue;
+  }
+}
+
+
+
+
+
+
+
+
+
